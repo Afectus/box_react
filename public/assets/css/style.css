@@ -1,0 +1,221 @@
+body {
+  overflow-y: scroll;
+}
+
+#goods-list {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.discount-good {
+  margin: -8px 0 -9px 0;  
+}
+
+.discount-line-title {
+  font-size: 12px !important; 
+  font-weight: bold;
+}
+
+.discount-line {
+  border-bottom: 1px solid #dededeee;
+  margin: 0 -8px;
+  padding: 2px 0px;
+  background: #f5f5f5;
+  font-size: 14px;
+}
+
+.multi-select {
+  border: 1px solid #eee;
+  padding: 5px;
+  position: relative;
+  transition: ease-in-out 0.8ms;
+}
+
+.multi-select.focus {
+  border-color: #1ab394 !important;
+}
+
+.multi-select select {
+  display: none;
+}
+
+.multi-select > ul.choosed {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.multi-select > ul.choosed > li {
+  display: inline-block;
+  background: #eee;
+  border: 1px solid #999;
+  padding: 1px 4px;
+  font-size: 13px;
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.multi-select > ul.choosed > li.input {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+.multi-select > ul.choosed > li.input > input[type='text'] {
+  width: 80px;
+  border: 0;
+  outline: none; 
+}
+
+.multi-select > ul.choosed > li.input > div {
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.multi-select > ul.choosed > li > i {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.multi-select > ul.options .show {
+  display: block !important;
+}
+
+.multi-select > ul.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  margin-top: 7px;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 1px 1px #0000000d;
+  max-height: 250px;
+  z-index: 5;
+  overflow-y: scroll;
+  display: none;
+}
+
+.multi-select > ul.options li {
+  padding: 5px 10px 5px 30px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  transition: ease-in 0.5ms;
+}
+
+.multi-select > ul.options li.group {
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.multi-select > ul.options li.selected,
+.multi-select > ul.options li.selected:hover {
+  background: #efefef;
+  color: #b3b3b3;
+}
+
+.multi-select > ul.options li.open,
+.multi-select > ul.options li.open:hover {
+  background: #e0e0e0;
+  text-align: center;
+  color: #383838;
+}
+
+.multi-select > ul.options li:hover {
+  background: #1ab394;
+  color: #fff;
+  cursor: pointer;
+}
+
+.multi-select > span.clear-select {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}
+
+
+.nav > li > a {
+  padding: 15px 10px 12px 15px !important;
+}
+
+body.mini-navbar #page-wrapper {
+  margin: 0 0 0 48px !important;
+}
+
+body.mini-navbar .navbar-static-side {
+  width: 48px !important;
+}
+
+.logo-element {
+  padding: 13px 0 !important;
+}
+
+.minimalize-styl-2 {
+  padding: 4px 12px !important;
+  margin: 10px 5px 5px 15px !important;
+}
+
+.wrapper-content {
+  padding: 10px 0px !important;
+}
+
+.ibox {
+  margin-bottom: 10px !important;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  transition: ease-in-out 0.3s;
+}
+
+.goods-table {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  transition: ease-in-out 0.3s;
+}
+
+.goods-table:hover {
+  border-color: #1ab394;
+}
+
+.goods-table tr:hover {
+  text-decoration: underline;
+  text-decoration-color: #5966f3;
+  cursor: pointer;
+}
+
+.price-filter > input[type='text'] {
+  width: 43%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.goods-col > input[type='text'] {
+  display: inline-block;
+  width: 45px !important;
+  padding: 0 10px;
+  z-index: 1 !important;
+}
+
+.goods-col button {
+  z-index: 0 !important;
+}
+
+.goods-col div:last-child {
+  display: block !important;
+}
+
+.max-height-300 {
+  max-height: 300px;
+}
+
+.relatives-table {
+  margin-top: -9px !important;
+}
