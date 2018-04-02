@@ -33,6 +33,7 @@ ReactDOM.render(
                 <Route exact path="/card-rel/:phone/:edit" component={CardRelativesView} />
                 <Route exact path="/card/:phone/:saved" component={CardEditView} />
             </div>
+курва
         </Router>
     </Provider>, 
     document.getElementById('root')
